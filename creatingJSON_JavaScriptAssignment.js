@@ -75,8 +75,8 @@ readline.on('line', function (line) { // starting of "on" function
            for(var j=0;j<coloumnamearray.length;j++){
 
             object2[coloumnamearray[j]]=totalValues[j];
-              console.log(coloumnamearray[j]);
-              console.log(totalValues[j]);
+              // console.log(coloumnamearray[j]);
+              // console.log(totalValues[j]);
             }
             total_Y.push(object2);
           }
